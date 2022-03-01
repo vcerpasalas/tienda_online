@@ -5,7 +5,7 @@ Podrás seleccionar los productos que desees con la opción "Añadir". Si deseas
 
 ![alt text](https://github.com/vcerpasalas/tienda_online/blob/fe8b961a24b3e284373b68aba09b8e24b54500a8/imgs/header.png)
 
-Facilitando tus compras
+Mi Tienda Online: facilitando tus compras
 
 ## Introducción
 
