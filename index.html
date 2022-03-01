@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Web</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav class="header-nav">
+            <a href="#home" class="header-nav__link-logo-container">
+                <img src="./imgs/logotipo.png" alt="Logo Tienda Online" class="header-nav__link-logo" />
+            </a>
+            <label for="menu" class="header-nav__menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" name="menu" id="menu" class="header-nav__menu-checkbox" />
+            <ul class="header-nav__link-list">
+                <li class="header-nav__link-item">
+                    <a href="#home" class="header-nav__link">Home</a>
+                </li>
+                <li class="header-nav__link-item">
+                    <a href="#nuestra-tienda" class="header-nav__link">Nuestra tienda</a>
+                </li>
+                <li class="header-nav__link-item">
+                    <a href="#productos" class="header-nav__link">Productos</a>
+                </li>
+                <li class="header-nav__link-item">
+                    <a href="#promociones" class="header-nav__link">Promociones</a>
+                </li>
+                <li class="header-nav__link-item">
+                    <a href="#contacto" class="header-nav__link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <img src="imgs/header.png" class="header-image" id="imgHeader" alt="Header image">
+    <section>
+        <div class="container" id="divMainContainer">
+            <h2 class="container-espere" id="h2Bienvenida">Espere tres segundos ...</h2><br>
+
+            <h2 class="container-texto">Productos</h2>
+            <ul class="container-productos" id="ulProductos"></ul><br>
+
+            <h2 class="container-texto">Carrito de compras</h2>
+            <div class="container-carrito" id="divCarrito"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <section class="contact" id="contact">
+            <nav class="contact__nav">
+                <h2 class="container-texto">Contacto</h2>
+                <h3 class="contact__titulo">Síguenos en nuestras redes sociales</h3>
+                <ul class="contact__list" id="menu">
+                    <li class="contact__item">
+                        <a href="https://www.facebook.com/" class="contact__link contact__link--selected">
+                            <img src="https://image.flaticon.com/icons/png/512/1384/1384005.png" alt="Facebook"
+                                class="contact__image">
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="https://www.instagram.com/" class="contact__link contact__link--selected">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="Instagram"
+                                class="contact__image">
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="https://api.whatsapp.com/" class="contact__link contact__link--selected">
+                            <img src="https://image.flaticon.com/icons/png/512/1384/1384023.png" alt="Whatsapp"
+                                class="contact__image">
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="https://youtube.com/" class="contact__link contact__link--selected">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384012.png" alt="Youtube"
+                                class="contact__image">
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="https://twitter.com/" class="contact__link contact__link--selected">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" alt="Twitter"
+                                class="contact__image">
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="mi.tiendaonline@gmail.com" class="contact__link contact__link--selected">
+                            <img src="https://image.flaticon.com/icons/png/512/31/31051.png" alt="Correo"
+                                class="contact__image">
+                        </a>
+                    </li>
+                    <p class="footer__copy">&copy; Mi Tienda Online. 2022</p>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+
+    <script src="./js/app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </main>
+</body>
+
+</html>
