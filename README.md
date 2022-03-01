@@ -3,7 +3,8 @@
 MI TIENDA ONLINE es una herramienta web novedosa que te permitirá calcular el costo total de tus pedidos de forma rápida. Cuenta con un carrito de compras que te mostrará la cantidad y precio en soles (S/.). El proceso es sencillo:
 Podrás seleccionar los productos que desees con la opción "Añadir". Si deseas añadir más de un producto, puedes presionar "Añadir" nuevamente. Por el contrario, si necesitas quitar un producto del carrito, cuentas con la opción "Remover". 
 
-Facilitando tus compras
+![alt text](https://github.com/vcerpasalas/tienda_online/blob/fe8b961a24b3e284373b68aba09b8e24b54500a8/imgs/header.png)
+  Facilitando tus compras
 
 ## Introducción
 
