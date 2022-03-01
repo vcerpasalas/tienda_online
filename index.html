@@ -31,7 +31,7 @@
                     <a href="#productos" class="header-nav__link">Productos</a>
                 </li>
                 <li class="header-nav__link-item">
-                    <a href="#promociones" class="header-nav__link">Promociones</a>
+                    <a href="#carrito" class="header-nav__link">Carrito</a>
                 </li>
                 <li class="header-nav__link-item">
                     <a href="#contacto" class="header-nav__link">Contacto</a>
@@ -41,34 +41,38 @@
     </header>
 
     <main class="main">
+        <div class="tienda__tienda-illustration"></div>
         <figure class="tienda__illustration-container">
             <img src="imgs/header.png" alt="Imagen de portada" class="tienda__illustration" id="imgHeader" />
         </figure>
         <div class="tienda__message">
             <h3 class="tienda__message-subtitle">
-                Facilitando tus compras
+                Facilitando tus compras...
             </h3>
-            <a href="#" class="hero__message-buttom">
-                Saber más
-            </a>
+            <ul class="tienda__button">
+                <a href="#" class="gradient tienda__button-dynamic">
+                    Nuestra historia
+                </a>
+            </ul>
         </div>
-
-        <section class="section" id="home">
+        <section class="section" id="productos">
             <div class="container" id="divMainContainer">
-                <h2 class="container-espere" id="h2Bienvenida">Espere tres segundos ...</h2><br>
-
-                <h2 class="container-texto">Productos</h2>
-                <ul class="container-productos" id="ulProductos"></ul><br>
-
-                <h2 class="container-texto">Carrito de compras</h2>
-                <div class="container-carrito" id="divCarrito"></div>
+                <h2 class="container__espere" id="h2Bienvenida">Espere tres segundos ...</h2><br>
+                <h2 class="container__texto">Productos</h2>
+                <ul class="container__productos" id="ulProductos"></ul><br>
+            </div>
+        </section>
+        <section class="section" id="carrito">
+            <div class="container" id="divMainContainer">
+                <h2 class="container__texto">Carrito de compras</h2>
+                <div class="container__carrito" id="divCarrito"></div>
             </div>
         </section>
 
         <footer class="footer">
-            <section class="contact" id="contact">
+            <section class="contact" id="contacto">
                 <nav class="contact__nav">
-                    <h2 class="container-texto">Contacto</h2>
+                    <h2 class="container__texto">Contacto</h2>
                     <h3 class="contact__titulo">Síguenos en nuestras redes sociales</h3>
                     <ul class="contact__list" id="menu">
                         <li class="contact__item">

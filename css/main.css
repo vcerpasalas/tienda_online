@@ -4,8 +4,10 @@
     --header2: #929292;
     --text-color: #000000;
     --inverse-text-color: #ffffff;
-    --highlight-color-1: #61164b;
-    --highlight-color-2: #e938ae;
+    --highlight-color-1: #a32c7d;
+    --button-color: #fd3cbd;
+    --gradient-1: #ac3466;
+    --gradient-2: #c54b9f;
     --color-table: #f2f2f2;
     --theme-color: #dddddd;
     --color-button-add: #5fd382;
@@ -114,6 +116,7 @@
     color: var(--highlight-color-2);
 }
 
+
 /* Introducción - Bienvenida */
 
 .tienda__illustration {
@@ -124,19 +127,113 @@
     align-items: center;
 }
 
+.tienda__message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tienda__message-subtitle {
+    font-weight: 500;
+    margin: 0;
+}
+
+.gradient {
+    display: block;
+    margin: 20px 0;
+    min-height: 50px;
+    padding: 16px 24px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 0.05rem solid var(--highlight-color-1);
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-position: top center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transition-property: background, color;
+    opacity: 0.85;
+}
+
+.tienda__button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tienda__button-dynamic {
+    position: relative;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, var(--button-color), var(--highlight-color-1), var(--gradient-1), var(--gradient-2), var(--button-color), var(--highlight-color-1));
+    background-size: 400%;
+    background-position: 0% 0%;
+    color: var(--inverse-text-color);
+    text-decoration: none;
+}
+
+.tienda__button-dynamic::before {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-image: linear-gradient(90deg, var(--button-color), var(--highlight-color-1), var(--gradient-1), var(--gradient-2), var(--button-color), var(--highlight-color-1));
+    background-size: 500%;
+    background-position: 0% 0%;
+    filter: blur(10px);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.2s;
+}
+
+.tienda__button-dynamic:hover {
+    animation: gradientRotate 1.85s infinite;
+}
+
+.tienda__button-dynamic::before {
+    opacity: 1;
+    animation: gradientRotate 1.85s infinite;
+}
+
+.tienda__button-dynamic:active {
+    color: var(--inverse-text-color);
+}
+
+@keyframes gradientRotate {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+
+/* Productos */
+
 .container {
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
 }
 
-.container-espere {
+.container__espere {
     margin-top: 50px;
     margin-left: 40px;
-    font-size: 24px;
+    font-size: 20x;
+    color: var(--highlight-color-1);
 }
 
-.container-texto {
+.container__texto {
     text-align: center;
     color: var(--highlight-color-1);
     font-size: 28px;
@@ -146,7 +243,7 @@
         0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
-.container-productos {
+.container__productos {
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -154,10 +251,50 @@
 }
 
 
+/* Botones */
+
+.botonAnhadir {
+    background-color: var(--color-button-add);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    margin: 5px;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.botonRemover {
+    background-color: var(--color-button-remove);
+    padding-left: 17px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    margin: 5px;
+    color: var(--inverse-text-color);
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
 /* Tabla productos */
 
 .container-table {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
@@ -182,34 +319,6 @@
     text-align: left;
     background-color: var(--header);
     color: var(--text-color);
-}
-
-
-/* Botones */
-
-.botonAnhadir {
-    background-color: var(--color-button-add);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100px;
-    margin: 5px;
-    font-weight: bold;
-    justify-content: center;
-}
-
-.botonRemover {
-    background-color: var(--color-button-remove);
-    padding-left: 17px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100px;
-    margin: 5px;
-    color: var(--inverse-text-color);
-    font-weight: bold;
-    justify-content: center;
 }
 
 
