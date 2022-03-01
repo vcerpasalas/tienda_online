@@ -12,13 +12,13 @@ Facilitando tus compras
 El presente proyecto contiene los archivos .hmtl y .css, que fueron escritos por medio de un editor Visual Studio Code.
 Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Puedes guiarte de estas notas para revisar la página.
 
-### Vistas del proyecto
+## Vistas del proyecto
 
-## Vista pantalla completa en laptop
+### Vista pantalla completa en laptop
 
 ![alt text](https://github.com/vcerpasalas/cinemaclub/blob/7a16b6628fc9ba90217459c80a29ee8f77630d1f/img/vista%20completa.png)
 
-## Vista responsive en mobile
+### Vista responsive en mobile
 
 
 ## Escalamiento
