@@ -1,6 +1,9 @@
-# Mi Tienda Online 📽 - Reto 4 
+# Mi Tienda Online 🛒 - Reto 4 
 
-MI TIENDA ONLINE es una herramienta web que te permitirá calcular el costo de tus pedidos de forma rápida
+MI TIENDA ONLINE es una herramienta web novedosa que te permitirá calcular el costo total de tus pedidos de forma rápida. Cuenta con un carrito de compras que te mostrará la cantidad y precio en soles (S/.). El proceso es sencillo:
+Podrás seleccionar los productos que desees con la opción "Añadir". Si deseas añadir más de un producto, puedes presionar "Añadir" nuevamente. Por el contrario, si necesitas quitar un producto del carrito, cuentas con la opción "Remover". 
+
+Facilitando tus compras
 
 ## Introducción
 
@@ -15,6 +18,9 @@ Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Pue
 
 ## Vista responsive en mobile
 
+
+## Escalamiento
+El código puede ser utilizado para cualquier comercio, emprendimiento o negocio 
 
 
 ### Notas
