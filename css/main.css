@@ -114,9 +114,9 @@
     color: var(--highlight-color-2);
 }
 
-/* Introducción - Saludo */
+/* Introducción - Bienvenida */
 
-.header-image {
+.tienda__illustration {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -185,10 +185,7 @@
 }
 
 
-
-
-
-
+/* Botones */
 
 .botonAnhadir {
     background-color: var(--color-button-add);
@@ -262,6 +259,8 @@
 .contact__image:hover {
     transform: scale(1.25);
 }
+
+/* Media Queries - Responsive */
 
 @media (min-width: 854px) {
 
