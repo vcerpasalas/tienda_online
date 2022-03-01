@@ -79,7 +79,7 @@ Puedes mirar mis otros proyectos...
 
 ## Licencia
 
-Este proyecto contiene una licencia de MIT License - ver el archivo adjunto en el repositorio para conocer los detalles.
+Este proyecto contiene una licencia GNU General Public License v3.0e - ver el archivo adjunto en el repositorio para conocer los detalles.
 
 ## Agradecimientos
 
