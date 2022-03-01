@@ -4,7 +4,8 @@ MI TIENDA ONLINE es una herramienta web novedosa que te permitirá calcular el c
 Podrás seleccionar los productos que desees con la opción "Añadir". Si deseas añadir más de un producto, puedes presionar "Añadir" nuevamente. Por el contrario, si necesitas quitar un producto del carrito, cuentas con la opción "Remover". 
 
 ![alt text](https://github.com/vcerpasalas/tienda_online/blob/fe8b961a24b3e284373b68aba09b8e24b54500a8/imgs/header.png)
-  Facilitando tus compras
+
+Facilitando tus compras
 
 ## Introducción
 
