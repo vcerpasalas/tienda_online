@@ -17,7 +17,7 @@ Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Pue
 ### Vista pantalla completa en laptop
   
 ![alt text](https://github.com/vcerpasalas/tienda_online/blob/ec29e219e962101a2694d1337c56df372e2cba00/imgs/pantalla-completa1.png)
-   
+     
 ![alt text](https://github.com/vcerpasalas/tienda_online/blob/ec29e219e962101a2694d1337c56df372e2cba00/imgs/pantalla-completa2.png)
    
 ![alt text](https://github.com/vcerpasalas/tienda_online/blob/ec29e219e962101a2694d1337c56df372e2cba00/imgs/pantalla-completa3.png)
