@@ -24,10 +24,14 @@ Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Pue
 
 ### Vista responsive en mobile
 
+![alt text](https://github.com/vcerpasalas/tienda_online/blob/16a1ed2ff4d3447462aa4b9b8761fa1cf458301a/imgs/mobile1.png)
+
+![alt text](https://github.com/vcerpasalas/tienda_online/blob/16a1ed2ff4d3447462aa4b9b8761fa1cf458301a/imgs/mobile2.png)
+
+![alt text](https://github.com/vcerpasalas/tienda_online/blob/16a1ed2ff4d3447462aa4b9b8761fa1cf458301a/imgs/mobile3.png)
 
 ## Escalamiento
-El código puede ser utilizado para cualquier comercio, emprendimiento o negocio 
-
+El proyecto puede ser utilizado para la generación de un carrito de compras y/o tienda online de cualquier comercio, emprendimiento o negocio online. 
 
 ### Notas
 
