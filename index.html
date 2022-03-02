@@ -8,6 +8,7 @@
     <title>Mi Tienda Online</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body class="body">
@@ -47,11 +48,7 @@
             </figure>
             <div class="intro-container">
                 <h3 class="intro__subtitle">Facilitando tus compras...</h3>
-                <ul class="intro__button">
-                    <a href="#" class="gradient intro__button-dynamic">
-                        Nuestra historia
-                    </a>
-                </ul>
+                <button class="intro__button intro__button-style"><span>Historia</span></button>
             </div>
         </section>
 
@@ -67,19 +64,17 @@
                 <h2 class="tienda__title">Carrito de compras</h2>
                 <div class="tienda__compra" id="divCarrito"></div>
             </div><br><br>
-            <a href="#" class="gradient tienda__button-dynamic">
-                Comprar
-            </a>
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <div class="tienda-container" id="divMainContainer">
-                <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_TMRZ23.json" background="transparent"
-                    speed="1" style="width: 300px; height: 300px" loop autoplay></lottie-player>
+            <div class="tienda__button-container">
+                <button class="tienda__button">Comprar</button>
             </div>
-            <figure class="tienda__illustration-container">
-                <img src="./imgs/gracias-compra.jpg" alt="Imagen de portada" class="tienda__illustration" id="imgHeader"
-                    width="300" />
-
-            </figure>
+            <div class="tienda-lottie">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <div class="tienda__lottie" id="divMainContainer">
+                    <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_TMRZ23.json"
+                        background="transparent" speed="1" style="width: 400px; height: 400px" loop autoplay />
+                    </lottie-player>
+                </div>
+            </div>
         </section>
 
         <footer class="footer">

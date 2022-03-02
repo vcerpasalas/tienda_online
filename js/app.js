@@ -44,7 +44,7 @@ for (let i = 0; i < productos.length; i++) {
 
     const botonAnhadir = document.createElement("button");
     botonAnhadir.textContent = "Añadir";
-    botonAnhadir.className = "botonAnhadir";
+    botonAnhadir.className = "button-add";
     botonAnhadir.addEventListener("click", function () {
         anhadirProducto(i);
     });
@@ -52,7 +52,7 @@ for (let i = 0; i < productos.length; i++) {
 
     const botonRemover = document.createElement("button");
     botonRemover.textContent = "Remover";
-    botonRemover.className = "botonRemover";
+    botonRemover.className = "button-remove";
     botonRemover.addEventListener("click", function () {
         removerProducto(i);
     });
@@ -181,6 +181,27 @@ function myStringConcat(str1, str2) {
 
 function borrarProductosCarrito() {
     document.getElementById("tableCarrito").remove();
+}
+
+
+// Animate Button for Buying
+
+var animateButton = function (e) {
+
+    e.preventDefault;
+    //reset animation
+    e.target.classList.remove('animate');
+
+    e.target.classList.add('animate');
+    setTimeout(function () {
+        e.target.classList.remove('animate');
+    }, 700);
+};
+
+var classname = document.getElementsByClassName("tienda__button");
+
+for (var i = 0; i < classname.length; i++) {
+    classname[i].addEventListener('click', animateButton, false);
 }
 
 document.addEventListener("DOMContentLoaded", documentReady);
