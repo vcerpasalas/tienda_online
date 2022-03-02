@@ -1,7 +1,7 @@
 # Mi Tienda Online 🛒 - Reto 4 
 
-MI TIENDA ONLINE es una herramienta web novedosa que te permitirá calcular el costo total de tus pedidos de forma rápida. Cuenta con un carrito de compras que te mostrará la cantidad y precio en soles (S/.). El proceso es sencillo:
-Podrás seleccionar los productos que desees con la opción "Añadir". Si deseas añadir más de un producto, puedes presionar "Añadir" nuevamente. Por el contrario, si necesitas quitar un producto del carrito, cuentas con la opción "Remover". 
+MI TIENDA ONLINE es una herramienta web novedosa que te permitirá calcular el costo total de tus pedidos de forma rápida. Cuenta con un carrito de compras que te mostrará por medio de una tabla la cantidad y precio en soles (S/.) de tus productos. El proceso es sencillo:
+Podrás seleccionar los productos que desees con la opción "Añadir". Si deseas añadir más de un producto, puedes presionar "Añadir" nuevamente, ¡y se sumará un nuevo producto a tu lista! Por el contrario, si necesitas quitar un producto del carrito, cuentas con la opción "Remover". 
 
 ![alt text](https://github.com/vcerpasalas/tienda_online/blob/fe8b961a24b3e284373b68aba09b8e24b54500a8/imgs/header.png)
 
@@ -9,14 +9,18 @@ Mi Tienda Online: facilitando tus compras
 
 ## Introducción
 
-El presente proyecto contiene los archivos .hmtl y .css, que fueron escritos por medio de un editor Visual Studio Code.
+El presente proyecto contiene los archivos .hmtl .css y .js , que fueron escritos por medio del editor Visual Studio Code.
 Te invito a que lo puedas descargar en tu máquina local, testear y revisar. Puedes guiarte de estas notas para revisar la página.
 
 ## Vistas del proyecto
 
 ### Vista pantalla completa en laptop
 
-![alt text](https://github.com/vcerpasalas/cinemaclub/blob/7a16b6628fc9ba90217459c80a29ee8f77630d1f/img/vista%20completa.png)
+![alt text](https://github.com/vcerpasalas/tienda_online/blob/ec29e219e962101a2694d1337c56df372e2cba00/imgs/pantalla-completa1.png)
+
+![alt text](https://github.com/vcerpasalas/tienda_online/blob/ec29e219e962101a2694d1337c56df372e2cba00/imgs/pantalla-completa2.png
+
+![alt text](https://github.com/vcerpasalas/tienda_online/blob/ec29e219e962101a2694d1337c56df372e2cba00/imgs/pantalla-completa3.png)
 
 ### Vista responsive en mobile
 
