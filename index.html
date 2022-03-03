@@ -33,11 +33,20 @@
 </head>
 
 <body class="body">
-    <header class="header">
+    <header class="header" id="header">
         <nav class="header-nav">
             <a href="#home" class="header-nav__link-logo-container">
                 <img src="./imgs/logotipo.png" alt="Logo Tienda Online" class="header-nav__link-logo" />
             </a>
+            <figure for="menu" class="header-nav__menu-icon-container" id="headerNavMenu">
+                <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="header-nav__menu-icon">
+                    <path d="M2 14.5H27" stroke="black" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M2 2H27" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M2 27H27" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </figure>
             <label for="menu" class="header-nav__menu-icon">
                 <i class="fa-solid fa-bars"></i>
             </label>
